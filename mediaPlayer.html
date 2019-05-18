@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mediaPlayer</title>
+    <link href="mediaplayer.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <audio src="http://dl.stream.qqmusic.qq.com/M500000WDigN3oQXIS.mp3?vkey=8D45BA88C6F5A3D202A8CA10B84D0D3775FAB0839A85DFE09173F6F6D78ACCA88A2B298B2B7A4129F610D309D48D772D482B66036CA2219D&guid=5150825362&fromtag=1" id="audio" controls="controls">你的浏览器不支持audio</audio>
+    <div class="progress">
+        <button id="play">play</button>
+        <span id="start">00:00</span>
+        <div class="Bar" id="bar">
+            <div class="Now" id="now"></div>
+        </div>
+        <span id="end">00:00</span>
+        <span>音量</span>
+        <div class="Bar" id="voiceBar">
+            <div class="Now" id="voice"></div>
+        </div>
+        <span>播放速度</span>
+        <div class="Bar" id="speedBar">
+            <div class="Now" id="speed"></div>
+        </div>
+        <button id="speedNormal">正常</button>
+    </div>
+    <script rel="script" src="mediaPlayer.js"></script>
+</body>
+</html>

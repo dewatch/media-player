@@ -1,0 +1,55 @@
+.progress{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+}
+.Bar{
+    position: relative;
+    background: darkgray;
+    width: 500px;
+    height: 5px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#voiceBar{
+    width: 100px;
+}
+
+#speedBar{
+    width: 100px;
+}
+
+.Now{
+    position: relative;
+    margin-bottom: 12px;
+    display: inline-block;
+    width: 0;
+    height: 5px;
+    background: #21b5c2;
+}
+
+.Now::after {
+    top: -1px;
+    content: '';
+    position: absolute;
+    left: 100%;
+    width: 8px;
+    height: 8px;
+    background-color: lightblue;
+    border-radius: 8px;
+}
+
+#play{
+    width: 50px;
+}
+
+#voice{
+    width: 100%;
+}
+
+#speed{
+    width: 50%;
+}

@@ -54,5 +54,5 @@ eventmitter.emit(event);
 
 eventmitter.remove('hello', callback2);
 
-console.log("you will never be handsome again!");
+console.log("yoo!");
 eventmitter.emit(event);
